@@ -1,1 +1,1 @@
-# -3D-models-demonstration-platform-APP
+# 3D-models-demonstration-platform-APP
