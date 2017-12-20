@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">finalproject4</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splashTitle">Studying the source of this app is the best way to start learning min3D:\nhttp://code.google.com/p/min3d</string>
+    <string name="projectUrl">http://code.google.com/p/min3d</string>
+    <string name="myBlogUrl">http://www.zeropointnine.com/blog</string>
+    <string name="this_is_an_example_of_placing_a_3d_scene_within_a_conventional_xml_based_android_layout_">This is an example of placing a 3D scene within a conventional XML-based Android layout.</string>
+    <string name="rihanna_love_the_way_lie">Rihanna Love the way lie</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:ignore="Orientation,ButtonOrder" >
+
+    <TextView
+        android:id="@+id/splashTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="@string/this_is_an_example_of_placing_a_3d_scene_within_a_conventional_xml_based_android_layout_"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="100sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#888888"
+            android:paddingRight="10sp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10sp"
+                android:text="In publishing  and graphic design, lorem ipsum is the name given to commonly used placeholder text (filler text) to demonstrate the graphic elements of a document or visual presentation, such as font, typography, and layout."
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scene1Holder"
+            android:layout_width="100sp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.0"
+        android:gravity="center_horizontal"
+        android:paddingTop="20sp" >
+
+        <Button
+            android:id="@+id/layoutOkay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/layoutCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
